@@ -1,0 +1,32 @@
+/*** Banner Override ***/
+
+#site-header {
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+width: 960px;
+height: 61px;
+padding-left: 960px;
+background-image: url(http://news.columbia.edu/files_columbianews/imce_shared/banner-news-hires-2.jpg);
+}
+
+#header {
+height: 61px;
+}
+
+#search_box{
+top: 9px;
+}
+
+.form-submit{
+position: relative;
+top:-16px;
+left: 160px;
+}
+
+#search_box .advanced-search{
+margin-top:-12px;}
+
+#search_box h3 { color: black !important; } /*** Climate Only ***/
+#search_box a { color: #2D2A62 !important; } /*** Climate Only ***/
+
+/*** End Banner Override ***/
